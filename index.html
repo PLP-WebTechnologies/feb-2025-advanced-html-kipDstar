@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+    <!-- Section: Ordered List -->
+    <h2>Ordered List</h2>
+    <!-- This ordered list uses Roman numerals -->
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <!-- Section: External Image -->
+    <h2>External Image</h2>
+    <!-- Image sourced from Pexels -->
+    <img src="https://www.pexels.com/photo/example-image.jpg" alt="Example Image from Pexels" width="500">
+
+    <!-- Section: Table -->
+    <h2>Contact Details</h2>
+    <!-- Table displaying contact details -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>+1234567890</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St</td>
+                <td>+0987654321</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section: Registration Form -->
+    <h2>Registration Form</h2>
+    <!-- Form for user registration -->
+    <form action="#" method="post">
+        <!-- Input field for name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Input field for email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Input field for password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <!-- Input field for date of birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Radio buttons for gender selection -->
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkboxes for hobbies -->
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <br><br>
+
+        <!-- Dropdown menu for country selection -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select>
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
